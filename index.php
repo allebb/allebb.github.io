@@ -90,7 +90,8 @@ $avatar_size = 220;
                         </ul>
                         <h3>Other sites</h3>
                         <ul>
-                            <li><a href="http://www.ballen.co.uk/" target="_blank">My Blog</a> - My personal blog, I mainly post about technical *NIX, hosting and development topics here.</li>
+                            <li><a href="http://blog.bobbyallen.me/" target="_blank">My Blog</a> - My personal blog, I mainly post about technical *NIX, hosting and development topics here.</li>
+                            <li><a href="http://a320project.bobbyallen.me/" target="_blank">My A320 project</a> - When I'm not coding i'm either building or flying my Airbus A320 home cockpit (flight simulator).</li>
                         </ul>
                     </section>
                 </div>
