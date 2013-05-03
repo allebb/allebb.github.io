@@ -86,7 +86,7 @@ $avatar_size = 220;
                             <li><strong>Web Frameworks</strong> - <a href="http://laravel.com/" target="_blank">Laravel</a>, <a href="http://fuelphp.com/" target="_blank">FuelPHP</a> and <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a></li>
                             <li><strong>OS</strong> - <a href="http://www.apple.com/osx/" target="_blank">MacOSX</a> <small>(for development)</small>, <a href="#" data-toggle="tooltip" title="I use a mixture of Ubuntu Linux Server and CentOS mainly!">Linux</a> and <a href="http://www.freebsd.org/" target="_blank">FreeBSD</a> <small>(for production hosting)</small></li>
                             <li><strong>IDE</strong> - <a href="http://www.netbeans.org/" target="_blank">NetBeans</a></li>
-                            <li><strong>VCS</strong> - <a href="http://git-scm.com/" target="_blank">Git</a>, SVN <small>(but only at work because I have too! :P)</small></li>
+                            <li><strong>VCS</strong> - <a href="http://git-scm.com/" target="_blank">Git</a>, <a href="http://subversion.apache.org/" target="_blank">Subversion</a> <small>(but only at work because I have too! :P)</small></li>
                             <li><strong>Other</strong> - <a href="http://jquery.com/" target="_blank">jQuery</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>, <a href="http://getcomposer.org/" target="_blank">Composer</a> plus a whole load more!</li>
                         </ul>
                         <h3>Other sites</h3>
