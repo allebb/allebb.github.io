@@ -75,8 +75,9 @@ $avatar_size = 220;
                         <ul>
                             <li><a href="http://www.zpanelcp.com/" target="_blank" target="_blank">ZPanel</a> - An open-source web hosting control panel for *NIX, BSD and Microsoft Windows written in PHP. </li>
                             <li><a href="http://www.bindhub.com/" target="_blank" target="_blank">BindHub.com</a> - A free dynamic DNS, cloud-hosted service with an easy to integrate RESTful API.</li>
-                            <li><a href="https://github.com/bobsta63/ravish" target="_blank">Ravish</a> - A light-weight RESTful API server (a micro-framework) for PHP.</li>
+                            <li><a href="https://github.com/bobsta63/gravel" target="_blank">Gravel</a> - A Gravatar.com library enabling developers easy access, display and manipulate user avatars in their applications.</ki>
                             <li><a href="https://github.com/bobsta63/distical" target="_blank">Distical</a> - A Lat/Long distance calculation library for PHP.</li>
+                            <li><a href="https://github.com/bobsta63/ravish" target="_blank">Ravish</a> - A light-weight RESTful API server (a micro-framework) for PHP.</li>
                             <li>...and a handful of other libraries and API clients can be found over on my <a href="https://github.com/bobsta63" target="_blank">GitHub</a> profile!</li>
                         </ul>
                         <h3>Software I use</h3>
@@ -85,7 +86,7 @@ $avatar_size = 220;
                             <li><strong>Web Frameworks</strong> - <a href="http://laravel.com/" target="_blank">Laravel</a>, <a href="http://fuelphp.com/" target="_blank">FuelPHP</a> and <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a></li>
                             <li><strong>OS</strong> - <a href="http://www.apple.com/osx/" target="_blank">MacOSX</a> <small>(for development)</small>, <a href="#" data-toggle="tooltip" title="I use a mixture of Ubuntu Linux Server and CentOS mainly!">Linux</a> and <a href="http://www.freebsd.org/" target="_blank">FreeBSD</a> <small>(for production hosting)</small></li>
                             <li><strong>IDE</strong> - <a href="http://www.netbeans.org/" target="_blank">NetBeans</a></li>
-                            <li><strong>VCS</strong> - <a href="http://git-scm.com/" target="_blank">Git</a></li>
+                            <li><strong>VCS</strong> - <a href="http://git-scm.com/" target="_blank">Git</a>, SVN <small>(but only at work because I have too! :P)</small></li>
                             <li><strong>Other</strong> - <a href="http://jquery.com/" target="_blank">jQuery</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>, <a href="http://getcomposer.org/" target="_blank">Composer</a> plus a whole load more!</li>
                         </ul>
                         <h3>Other sites</h3>
