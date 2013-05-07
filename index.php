@@ -1,5 +1,5 @@
 <?php
-$avatar_url = md5(strtolower(trim("bobbyallen.uk@gmail.com")));
+$avatar_url = md5(strtolower(trim("bobbyallen.uk@gmail.cfom")));
 $avatar_size = 220;
 ?>
 <!DOCTYPE html>
