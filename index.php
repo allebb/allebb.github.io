@@ -48,7 +48,6 @@ $avatar_size = 220;
     </head>
 
     <body>
-    HOLLA
         <div class="container">
             <div class="row">
                 <div class="span4">
