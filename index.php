@@ -74,7 +74,7 @@ $avatar_size = 220;
                         <ul>
                             <li><a href="http://www.zpanelcp.com/" target="_blank" target="_blank">ZPanel</a> - An open-source web hosting control panel for *NIX, BSD and Microsoft Windows written in PHP. </li>
                             <li><a href="http://www.bindhub.com/" target="_blank" target="_blank">BindHub.com</a> - A free dynamic DNS, cloud-hosted service with an easy to integrate RESTful API.</li>
-                            <li><a href="http://bobsta63.github.io/turbine/" target="_blank" target="_blank">Turbine</a> - A reverse proxy and network load-balancer management panel (with RESTful API) utilising the power of Nginx's proxy features.</li>
+                            <li><a href="http://bobsta63.github.io/turbine/" target="_blank">Turbine</a> - A reverse proxy and network load-balancer management panel (with RESTful API) utilising the power of Nginx's proxy features.</li>
                             <li><a href="https://github.com/bobsta63/ravish" target="_blank">Ravish</a> - A cURL-less HTTP client library for PHP, perfect for RESTful web services!</li>
                             <li><a href="https://github.com/bobsta63/likkle" target="_blank">Likkle</a> - A short URL generation and statistics PHP library for use with the <a href="http://www.lk2.in/" target="_blank">lk2.in</a> web service.</li>
                             <li><a href="https://github.com/bobsta63/gravel" target="_blank">Gravel</a> - A Gravatar.com library enabling developers easy access, display and manipulate user avatars in their applications.</li>
