@@ -6,7 +6,7 @@ $avatar_size = 220;
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Bobby Allen (ballen/bobsta63)</title>
+        <title>Bobby Allen - A software developer from Ipswich, England.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="I'm Bobby Allen, a software developer from Ipswich, England.">
         <meta name="keywords" content="Bobby Allen, ballen, bobsta63, Ipswich, software, web, developer">
@@ -83,24 +83,23 @@ $avatar_size = 220;
                         </ul>
                         <h3>Software I use</h3>
                         <ul>
-                            <li><strong>Languages</strong> - <a href="http://www.php.net/" target="_blank">PHP</a>, <a href="http://www.python.org/" target="_blank">Python</a> and <a href="http://www.ruby-lang.org/en/" target="_blank">Ruby</a></li>
+                            <li><strong>Languages</strong> - <a href="http://www.php.net/" target="_blank">PHP</a>, <a href="http://www.python.org/" target="_blank">Python</a> and <a href="http://www.ruby-lang.org/en/" target="_blank">Ruby</a> and .NET/C# <small>(but really only use C# at at work, my passion is for PHP and other open-source langauges!)</small>.</li>
                             <li><strong>Web Frameworks</strong> - <a href="http://laravel.com/" target="_blank">Laravel</a>, <a href="http://fuelphp.com/" target="_blank">FuelPHP</a> and <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a></li>
                             <li><strong>OS</strong> - <a href="http://www.apple.com/osx/" target="_blank">MacOSX</a> <small>(for development)</small>, <a href="#" data-toggle="tooltip" title="I use a mixture of Ubuntu Linux Server and CentOS mainly!">Linux</a> and <a href="http://www.freebsd.org/" target="_blank">FreeBSD</a> <small>(for production hosting)</small></li>
                             <li><strong>IDE</strong> - <a href="http://www.netbeans.org/" target="_blank">NetBeans</a></li>
                             <li><strong>VCS</strong> - <a href="http://git-scm.com/" target="_blank">Git</a>, <a href="http://subversion.apache.org/" target="_blank">Subversion</a> <small>(I prefer Git but am required to use Subversion at work!)</small></li>
-                            <li><strong>Other</strong> - <a href="http://jquery.com/" target="_blank">jQuery</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>, <a href="http://getcomposer.org/" target="_blank">Composer</a> plus a whole load more!</li>
+                            <li><strong>Other</strong> - <a href="http://jquery.com/" target="_blank">jQuery</a>, <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>, <a href="http://getcomposer.org/" target="_blank">Composer</a>, <a href="http://phpunit.de/manual/current/en/index.html">PHPUnit</a>, <a href="http://behat.org/">BeHat, <a href="http://bower.io">Bower</a> plus a whole load more!</li>
                         </ul>
                         <h3>Other sites</h3>
                         <ul>
                             <li><a href="http://blog.bobbyallen.me/" target="_blank">My Blog</a> - My personal blog, I mainly post about technical *NIX, hosting and development topics here.</li>
-                            <!-- <li><a href="http://a320project.bobbyallen.me/" target="_blank">My A320 project</a> - When I'm not coding i'm either building or flying my Airbus A320 home cockpit (flight simulator).</li> -->
                         </ul>
                     </section>
                 </div>
             </div>
             <footer>
                 <hr>
-                <p>Copyright © 2013 Bobby Allen</p>
+                <p>Copyright &copy; 2013-2014 Bobby Allen</p>
             </footer>
         </div>
         <script src="js/jquery.js"></script>
@@ -128,5 +127,3 @@ $avatar_size = 220;
         </script>
     </body>
 </html>
-
-
