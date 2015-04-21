@@ -1,0 +1,33 @@
+/* 
+    Created on : 21-Apr-2015, 11:03:15
+    Author     : ballen
+*/
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.akatext {
+    margin-bottom: 20px;
+    font-size: 19px;
+    line-height: 30px;
+}
+.dropme {
+    margin-top: 70px;
+}
+
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h4 {
+    font-weight: light;
+    font-size: 0.9em;
+}
+
+.gapspacer {
+    margin-bottom: 25px;
+}

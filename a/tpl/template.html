@@ -2,63 +2,55 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{Project name} - {Description}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="{Description}">
         <meta name="keywords" content="{Keywords specific to the project}">
         <meta name="author" content="Bobby Allen">
-        <style type="text/css">
-            body {
-                padding-top: 60px;
-                padding-bottom: 40px;
-            }
-            .container {
-                width:860px;
-            }
-
-        </style>
-        <link href="http://bobbyallen.me/a/css/bootstrap.css" rel="stylesheet">
+        <link rel="icon" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=16">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=144">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=144">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=72">
         <link rel="apple-touch-icon-precomposed" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7">
-        <link rel="shortcut icon" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=16">
+        <title>{Project name} - {Description}</title>
+        <link href="../a/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../a/css/site.css" rel="stylesheet">
     </head>
 
     <body>
         <div class="container">
             <div class="row">
-                <div class="span12">
+                <div class="col-md-12">
                     <header>
                         <h1>Project/Software name</h1>
                     </header>
                 </div>
             </div>
             <div class="row">
-                <div class="span9 dropme">
-                    <section>
+                <div class="col-md-9">
+                    <article>
                         <p class="lead">Introduction to the software/project, what is it, what does it do etc!</p>
                         <h3>About</h3>
                         <p>An extended about section (if required).</p>
 
                         <h3>Screenshots</h3>
-                        <ul class="thumbnails">
-                            <li class="span3">
-                                <a href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" target="_blank" class="thumbnail">
-                                    <img src="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" alt="">
+                        <div class="row">
+                            <div class="col-xs-4 col-md-4">
+                                <a href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=500" target="_blank" class="thumbnail">
+                                    <img src="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=500" alt="Screenshot 1">
                                 </a>
-                            </li>
-                            <li class="span3">
-                                <a href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" target="_blank" class="thumbnail">
-                                    <img src="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" alt="">
+                            </div>
+                            <div class="col-xs-4 col-md-4">
+                                <a href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=500" target="_blank" class="thumbnail">
+                                    <img src="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=500" alt="Screenshot 2">
                                 </a>
-                            </li>
-                            <li class="span3">
-                                <a href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" target="_blank" class="thumbnail">
-                                    <img src="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" alt="">
+                            </div>
+                            <div class="col-xs-4 col-md-4">
+                                <a href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=500" target="_blank" class="thumbnail">
+                                    <img src="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=500" alt="Screenshot 3">
                                 </a>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
 
                         <h3>Features</h3>
                         <p><strong>Easy to install</strong> in just a few clicks you can be tracking your progress through X.</p>
@@ -75,14 +67,14 @@
                         <p>My contact details can be found on my <a href="/">homepage</a>.</p>
                         <h3>License</h3>
                         <p>This software is licensed under the GPLv2 license, you are free to impove the code and pass it on!</p>
-                    </section>
+                    </article>
                 </div>
-                <div class="span3">
+                <div class="col-md-3">
                     <div>
-                        <a href="{Donwload URL}" class="btn btn-block btn-large btn-success" target="_blank">Grab the latest release<br/><strong>Download now!</strong></a>
+                        <a href="{Donwload URL}" class="btn btn-block btn-lg btn-success" target="_blank">Grab the latest release<br/><strong>Download now!</strong></a>
                         <p>&nbsp;</p>
-                        <a href="{Github Project page}" class="btn btn-block btn-medium btn-info" target="_blank">Want the code?<br/><strong>Fork on GitHub!</strong></a>
-                        <a href="http://bobbyallen.me/#donate" class="btn btn-block btn-medium btn-default" target="_blank">Like my work?<br/><strong>Donate via. PayPal</strong></a>
+                        <a href="{Github Project page}" class="btn btn-block btn-info" target="_blank">Want the code?<br/><strong>Fork on GitHub!</strong></a>
+                        <a href="http://bobbyallen.me/#donate" class="btn btn-block btn-default" target="_blank">Like my work?<br/><strong>Donate via. PayPal</strong></a>
                     </div>
                 </div>
             </div>
@@ -91,8 +83,10 @@
                 <p>Copyright &copy; 2013-2015 <a href="http://bobbyallen.me">Bobby Allen</a></p>
             </footer>
         </div>
-        <script src="http://bobbyallen.me/a/js/jquery.js"></script>
-        <script src="http://bobbyallen.me/a/js/bootstrap.min.js"></script>
+        <script src="../a/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="../a/js/jquery-1.11.2.min.js"></script>
+        <script src="../a/js/bootstrap.min.js"></script>
+        <script src="../a/js/site.js"></script>
         <script>
             $('.span8').tooltip({
                 selector: "a[data-toggle=tooltip]"

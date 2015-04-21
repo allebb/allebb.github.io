@@ -2,39 +2,32 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Turbine - A reverse proxy and load-balancer interface for Nginx</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Turbine is a Web and RESTful interface for managing Nginx reverse proxy and load-balance configurations.">
         <meta name="keywords" content="turbine,reverse proxy,nginx">
-        <meta name="author" content="Bobby Allen <ballen@bobbyallen.me>">
-        <style type="text/css">
-            body {
-                padding-top: 60px;
-                padding-bottom: 40px;
-            }
-            .container {
-                width:860px;
-            }
-        </style>
-        <link href="http://bobbyallen.me/a/css/bootstrap.css" rel="stylesheet">
+        <meta name="author" content="Bobby Allen">
+        <link rel="icon" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=16">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=144">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=144">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=72">
         <link rel="apple-touch-icon-precomposed" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7">
-        <link rel="shortcut icon" href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=16">
+        <title>Turbine - A reverse proxy and load-balancer interface for Nginx</title>
+        <link href="../a/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../a/css/site.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="row">
-                <div class="span12">
+                <div class="col-md-12">
                     <header>
                         <h1>Turbine</h1>
                     </header>
                 </div>
             </div>
             <div class="row">
-                <div class="span9 dropme">
-                    <section>
+                <div class="col-md-9">
+                    <article>
                         <p class="lead">Turbine is an easy to set-up and manage load-balancer and reverse proxy management interface complete with RESTful API to enable automated third-party application integration.</p>
                         <h3>About</h3>
                         <p>Turbine is an easy to set-up and manage load-balancer and reverse proxy management interface complete with a RESTful API to enable automated third-party application integration.</p>
@@ -42,35 +35,17 @@
 
                         <h3>Screenshots</h3>
                         <p>Screenshots are coming soon!</p>
-                        <!-- <ul class="thumbnails">
-                            <li class="span3">
-                                <a href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" target="_blank" class="thumbnail">
-                                    <img src="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" alt="">
-                                </a>
-                            </li>
-                            <li class="span3">
-                                <a href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" target="_blank" class="thumbnail">
-                                    <img src="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" alt="">
-                                </a>
-                            </li>
-                            <li class="span3">
-                                <a href="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" target="_blank" class="thumbnail">
-                                    <img src="http://www.gravatar.com/avatar/f4e4a981ae664a57e37616d5d15931d7?s=2020" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                        -->
 
                         <h3>
                             <a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation
                         </h3>
 
                         <p>You can install the latest 'development' snapshot by  running the following on your Linux server (currently Ubunu 12.04 LTS is the only supported OS) but other versions may work too!</p>
-                        <p><code>wget https://github.com/bobsta63/turbine/archive/master.zip</code></p>
-                        <p><code>unzip master.zip</code></p>
-                        <p><code>cp turbine-master/scripts/install.sh ./install.sh</code></p>
-                        <p><code>chmod +x install.sh</code></p>
-                        <p><code>sudo ./install.sh</code></p>
+                        <pre class="code">wget https://github.com/bobsta63/turbine/archive/master.zip
+unzip master.zip
+cp turbine-master/scripts/install.sh ./install.sh
+chmod +x install.sh
+sudo ./install.sh</pre>
                         <p>When asked what directory to install from, type:</p>
                         <p><code>./turbine-master</code></p>
                         <p>That will then install all of the required packages etc. once completed you should be able to login with the default username and password (being: admin/password) and then add rules as required.</p>
@@ -91,12 +66,11 @@
 
                         <h3>License</h3>
                         <p>This software is licensed under the MIT license!</p>
-                    </section>
+                    </article>
                 </div>
-                <div class="span3">
+                <div class="col-md-3">
                     <div>
-                        <a href="https://github.com/bobsta63/turbine" class="btn btn-block btn-medium btn-info" target="_blank">Want the code?<br/><strong>Fork on GitHub!</strong></a>
-                        <a href="http://bobbyallen.me/donate" class="btn btn-block btn-medium btn-default" target="_blank">Like my work?<br/><strong>Donate via. PayPal</strong></a>
+                        <a href="https://github.com/bobsta63/turbine" class="btn btn-block btn-info" target="_blank">Want the code?<br/><strong>Fork on GitHub!</strong></a>
                     </div>
                 </div>
             </div>
@@ -105,8 +79,10 @@
                 <p>Copyright &copy; 2013-2015 <a href="http://bobbyallen.me">Bobby Allen</a></p>
             </footer>
         </div>
-        <script src="http://bobbyallen.me/a/js/jquery.js"></script>
-        <script src="http://bobbyallen.me/a/js/bootstrap.min.js"></script>
+        <script src="../a/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="../a/js/jquery-1.11.2.min.js"></script>
+        <script src="../a/js/bootstrap.min.js"></script>
+        <script src="../a/js/site.js"></script>
         <script>
             $('.span8').tooltip({
                 selector: "a[data-toggle=tooltip]"
