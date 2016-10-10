@@ -1,0 +1,24 @@
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
+body{
+    /** background-image:url("/assets/img/globe-bg.jpg"); **/
+}
+
+h1,h2,h3 {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333;
+    font-weight: 0.8em;
+}
+
+h1 {
+    color: #FE9900;
+}
+
+.btn-success {
+    background-color: #FE9900;
+    color: #000;
+    border-color: #FE9900;
+}
+
