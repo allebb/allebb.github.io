@@ -8,12 +8,16 @@ h1,h2,h3 {
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #333;
-    font-weight: 0.8em;
+    color: #FE9900;
+    font-weight: 1.2em;
 }
 
 h1 {
-    color: #FE9900;
+    color: #333;
+}
+
+.lead {
+    font-family: 'Abel', sans-serif;
 }
 
 .btn-success {
