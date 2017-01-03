@@ -41,7 +41,7 @@
                         </h3>
 
                         <p>You can install the latest 'development' snapshot by  running the following on your Linux server (currently Ubunu 12.04 LTS is the only supported OS) but other versions may work too!</p>
-                        <pre class="code">wget https://github.com/bobsta63/turbine/archive/master.zip
+                        <pre class="code">wget https://github.com/allebb/turbine/archive/master.zip
 unzip master.zip
 cp turbine-master/scripts/install.sh ./install.sh
 chmod +x install.sh
@@ -49,7 +49,7 @@ sudo ./install.sh</pre>
                         <p>When asked what directory to install from, type:</p>
                         <p><code>./turbine-master</code></p>
                         <p>That will then install all of the required packages etc. once completed you should be able to login with the default username and password (being: admin/password) and then add rules as required.</p>
-                        <p>If you are using Ubuntu 14.04 LTS, after running the above please be sure to complete these <a href="https://github.com/bobsta63/turbine#instalation-on-ubuntu-1404-lts" target="_blank">following steps</a> (otherwise you will get 502 bad gateway errors).</p>
+                        <p>If you are using Ubuntu 14.04 LTS, after running the above please be sure to complete these <a href="https://github.com/allebb/turbine#instalation-on-ubuntu-1404-lts" target="_blank">following steps</a> (otherwise you will get 502 bad gateway errors).</p>
 
                         <h3>Features</h3>
                         <p><strong>Easy to install</strong> simply use the commands above to provision and install your reverse proxy/load balancer.</p>
@@ -70,13 +70,13 @@ sudo ./install.sh</pre>
                 </div>
                 <div class="col-md-3">
                     <div>
-                        <a href="https://github.com/bobsta63/turbine" class="btn btn-block btn-info" target="_blank">Want the code?<br/><strong>Fork on GitHub!</strong></a>
+                        <a href="https://github.com/allebb/turbine" class="btn btn-block btn-info" target="_blank">Want the code?<br/><strong>Fork on GitHub!</strong></a>
                     </div>
                 </div>
             </div>
             <footer>
                 <hr>
-                <p>Copyright &copy; 2013-2016 <a href="http://bobbyallen.me">Bobby Allen</a></p>
+                <p>Copyright &copy; 2013-2017 <a href="http://bobbyallen.me">Bobby Allen</a></p>
             </footer>
         </div>
         <script src="../a/js/ie10-viewport-bug-workaround.js"></script>
@@ -87,22 +87,6 @@ sudo ./install.sh</pre>
             $('.span8').tooltip({
                 selector: "a[data-toggle=tooltip]"
             });
-        </script>
-        <script>
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-47482933-1', 'bobbyallen.me');
-            ga('send', 'pageview');
         </script>
     </body>
 </html>
