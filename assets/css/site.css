@@ -20,7 +20,7 @@ a:hover {
     font-family: 'Kreon', serif;
     color: #283C46;
     font-size: 2.1em;
-    line-height: 1.2em;
+    line-stacking: 1.3em;
 }
 
 h1 {
@@ -84,4 +84,24 @@ ul.socials li a i:hover {
 
 .fa-wordpress {
     color: #BA5944;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+.btn-primary {
+    background-color: #BA5944;
+    color: #FFFFFF;
+    border-color: #BA5944;
+}
+
+.btn-primary:hover {
+    background-color: #283C46;
+    color: #FFFFFF;
+    border-color: #283C46;
 }
