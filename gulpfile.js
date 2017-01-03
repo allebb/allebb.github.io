@@ -13,7 +13,7 @@ gulp.task('pack-js', function () {
 
 // Concatenate and minify the CSS files.
 gulp.task('pack-css', function () {
-    return gulp.src(['assets/css/bootstrap.css', 'assets/css/font-awesome.css', 'assets/css/site.css'])
+    return gulp.src(['assets/css/bootstrap.css', 'assets/css/font-awesome.css', 'assets/css/font-imports.css', 'assets/css/site.css'])
             .pipe(concat('site.min.css'))
             .pipe(cleanCss())
             .pipe(gulp.dest('assets/build/css'));

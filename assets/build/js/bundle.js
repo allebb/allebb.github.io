@@ -12596,3 +12596,6 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+// Enable Bootstrap tooltips
+$('[data-toggle="tooltip"]').tooltip({'placement': 'top'});

@@ -1,0 +1,76 @@
+body {
+    background-color: #FBF7F0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #BA5944;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8E9BA6;
+    text-decoration: none;
+}
+
+.lead {
+    font-family: 'Kreon', serif;
+    color: #283C46;
+    font-size: 2.1em;
+}
+
+h1 {
+    color: #283C46;
+}
+
+h2 {
+    font-family: 'Kreon', serif;
+    color: #8E9B8D;
+    font-size: 2.1em;
+    text-weight: bold;
+}
+
+ul {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+ul.socials {
+    overflow: auto;
+    text-align: center;
+}
+
+ul.socials li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+ul.socials li a i {
+    width: 60px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fa-github {
+    color: #283C46;
+} 
+
+.fa-twitter {
+    color: #283C46;
+}
+
+.fa-envelope {
+    color: #283C46;
+}
+
+.fa-wordpress {
+    color: #283C46;
+}
