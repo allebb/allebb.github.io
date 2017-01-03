@@ -1,7 +1,7 @@
 body {
     background-color: #FBF7F0;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,9 +16,11 @@ a:hover {
 }
 
 .lead {
+    margin-top: 20px;
     font-family: 'Kreon', serif;
     color: #283C46;
     font-size: 2.1em;
+    line-height: 1.2em;
 }
 
 h1 {
@@ -30,47 +32,50 @@ h2 {
     color: #8E9B8D;
     font-size: 2.1em;
     text-weight: bold;
+    margin-top: 40px;
 }
 
 ul {
     font-size: 1.2em;
     margin-bottom: 10px;
+    color: #283C46;
 }
 
 ul.socials {
-    overflow: auto;
     text-align: center;
 }
 
 ul.socials li {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     margin-left: 0 auto;
     margin-right: 0 auto;
-}
-
-ul.socials li a i {
-    width: 60px;
-    height: 40px;
+    width: 50px;
     font-size: 25px;
-    text-align: center;
-    margin-right: 16px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.fa-github {
+ul.socials li a i {
     color: #283C46;
+}
+
+ul.socials li a i:hover {
+    color: #BA5944;
+}
+
+.fa-github {
+    color: #BA5944;
 } 
 
 .fa-twitter {
-    color: #283C46;
+    color: #BA5944;
 }
 
 .fa-envelope {
-    color: #283C46;
+    color: #BA5944;
 }
 
 .fa-wordpress {
-    color: #283C46;
+    color: #BA5944;
 }
