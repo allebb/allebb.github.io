@@ -1,6 +1,6 @@
 # allebb.github.com
 
-##What is this?
+## What is this?
 
 Using GitHub pages, this provides a place for me to store, version and auto-deploy my personal homepage from.
 
