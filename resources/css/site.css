@@ -37,6 +37,10 @@ h2 {
     line-stacking: 0.3em;
 }
 
+.standout {
+    font-size: 1.8rem;
+}
+
 p a:link {
     color: #177DB4;
 }
@@ -93,6 +97,10 @@ ul.socials li a i {
 
 ul.socials li a i:hover {
     color: #283C46;
+}
+
+ul.projects li {
+    margin-top: 1.3rem;
 }
 
 .fa-github {
