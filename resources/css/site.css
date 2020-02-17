@@ -20,7 +20,7 @@ h2 {
 .lead {
     font-family: "Inter bold", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     margin-top: 20px;
-    font-size: 2.0rem;
+    font-size: 2.2rem;
     line-stacking: 1.3em;
 }
 
@@ -30,38 +30,67 @@ h2 {
 
 .hey-there {
     font-size: 6.4rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #f1f1f1;
     padding-bottom: 0.5rem;
     margin-bottom: 0.5rem;
     line-stacking: 0.3em;
 }
 
+.section-title {
+    font-size: 3.4rem;
+    font-weight: 900;
+    margin-left: -0.8rem;
+    color: #283c46;
+}
+
 .standout {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 p a:link {
-    color: #177DB4;
+    color: #82B2CA;
 }
 
 p a:visited {
-    color: #177DB4;
+    color: #82B2CA;
 }
 
 p a:hover {
-    color: #5D4954;
+    color: #776273;
     text-decoration: none;
 }
 
 p a:active {
-    color: #475B63;
+    color: #776273;
 }
 
-.tip-link a {
+
+.projects p {
+    font-size: 1.4rem;
+}
+
+.projects a:link {
+    color: #1F5983;
+    font-weight: bold;
+}
+
+.projects a:visited {
+    color: #1F5983;
+}
+
+.projects a:hover {
+    color: #D17C0A;
+    text-decoration: none;
+}
+
+.projects a:active {
+    color: #776273;
+}
+
+.tip-link a:link  {
     color: #1b1e21;
     text-decoration: dotted;
-
 }
 
 ul {
