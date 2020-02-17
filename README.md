@@ -1,13 +1,5 @@
-# allebb.github.com
+# bobbyallen.me
 
-## What is this?
+This repository contains the source code and assets that powers my GitHub Pages powered portfolio - [bobbyallen.me](https://bobbyallen.me).
 
-Using GitHub pages, this provides a place for me to store, version and auto-deploy my personal homepage from.
-
-The production version of this site can be viewed at: https://bobbyallen.me
-
-Prior to deployment to GitHub, given that this site is hosted on GitHub pages, Gulp should be ran prior to committing and pushing changes; this can be achieved by typing:
-
-```shell
-gulp
-```
+That's all ;)

@@ -1,9 +1,23 @@
 {
-  "name": "allebb",
+  "name": "allebb.github.io",
+  "version": "2.0.0",
+  "description": "My personal portfolio site.",
+  "main": "gulpfile.js",
+  "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.3.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-minify": "0.0.14"
-  }
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allebb/allebb.github.io.git"
+  },
+  "author": "Bobby Allen <ballen@bobbyallen.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allebb/allebb.github.io/issues"
+  },
+  "homepage": "https://github.com/allebb/allebb.github.io#readme"
 }
