@@ -54,6 +54,12 @@ p a:active {
     color: #475B63;
 }
 
+.tip-link a {
+    color: #1b1e21;
+    text-decoration: dotted;
+
+}
+
 ul {
     font-size: 1.2em;
     margin-bottom: 10px;
