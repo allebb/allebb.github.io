@@ -16,7 +16,11 @@ function clean() {
 function scripts() {
     return (
         gulp
-            .src(["./resources/js/jquery-3.4.1-slim.js", "./resources/js/bootstrap-4.4.1.bundle.js", "./resources/js/site.js"]) // Set files in order as required.
+            .src([
+                "./resources/js/jquery-3.4.1-slim.js",
+                "./resources/js/bootstrap-4.4.1.bundle.js",
+                "./resources/js/site.js"
+            ]) // Set files in order as required.
             .pipe(concat('bundle.js'))
             .pipe(minify())
             .pipe(gulp.dest("./assets/"))
@@ -27,7 +31,13 @@ function scripts() {
 function css() {
     return gulp
         //.src("./resources/css/**/*")
-        .src(["./resources/css/bootstrap.css", "./resources/css/inter.css", "./resources/css/site.css"]) // Set files in order as required.
+        .src([
+            "./resources/css/bootstrap.css",
+            "./resources/css/inter.css",
+            //"./resources/css/fa-brands.css",
+            //"./resources/css/fa-solid.css",
+            "./resources/css/site.css"
+        ]) // Set files in order as required.
         .pipe(concat('site.min.css'))
         .pipe(cleanCss())
         .pipe(gulp.dest("./assets/"))

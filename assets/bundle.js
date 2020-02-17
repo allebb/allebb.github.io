@@ -15628,4 +15628,26 @@
 })));
 //# sourceMappingURL=bootstrap.bundle.js.map
 
-console.log("JS loaded!");
+// Enable Bootstrap tooltips
+$('[data-toggle="tooltip"]').tooltip({'placement': 'top'});
+
+// Scroll up link
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+            $('#back-to-top').fadeIn();
+        } else {
+            $('#back-to-top').fadeOut();
+        }
+    });
+
+    // scroll body to 0px on click
+    $('#back-to-top').click(function () {
+        $('#back-to-top').tooltip('hide');
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+});

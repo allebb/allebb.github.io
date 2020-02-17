@@ -1,36 +1,137 @@
 body {
     font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #ffffff;
     color: #2E2C2F;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
+    font-family: "Inter bold", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2.4rem;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 6.4rem;
+    font-size: 2.4rem;
     font-weight: 700;
 }
 
 .lead {
+    font-family: "Inter bold", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 20px;
     font-size: 2.0rem;
+    line-stacking: 1.3em;
 }
 
-a:link {
+.lead strong {
+    font-weight: 500;
+}
+
+.hey-there {
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: #f1f1f1;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    line-stacking: 0.3em;
+}
+
+p a:link {
     color: #177DB4;
 }
 
-a:visited {
-    color: #7D6167;
+p a:visited {
+    color: #177DB4;
 }
 
-a:hover {
+p a:hover {
     color: #5D4954;
     text-decoration: none;
 }
 
-a:active {
+p a:active {
     color: #475B63;
+}
+
+ul {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #283C46;
+}
+
+ul.socials {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul.socials li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-right: 50px;
+    font-size: 2.0em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+ul.socials li:last-of-type {
+    padding-right: 0;
+}
+
+ul.socials li a i {
+    color: #283C46;
+}
+
+ul.socials li a i:hover {
+    color: #283C46;
+}
+
+.fa-github {
+    color: #BA5944;
+}
+
+.fa-twitter {
+    color: #BA5944;
+}
+
+.fa-envelope {
+    color: #BA5944;
+}
+
+.fa-wordpress {
+    color: #BA5944;
+}
+
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+.btn-primary {
+    background-color: #475B63;
+    color: #FFFFFF;
+    border-color: #475B63;
+}
+
+.btn-primary:hover {
+    background-color: #283C46;
+    color: #FFFFFF;
+    border-color: #283C46;
+}
+
+.btn-primary li a:visited {
+    color: #ffffff;
+}
+
+.space-right {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
