@@ -1,35 +1,55 @@
-var gulp = require('gulp');
-var concat = require('gulp-concat');
-var minify = require('gulp-minify');
-var cleanCss = require('gulp-clean-css');
+"use strict";
 
-// Concatenate and minify the JS files.
-gulp.task('pack-js', function () {
-    return gulp.src(['assets/js/jquery-3.1.1.js', 'resources/js/bootstrap.js', 'resources/js/site.js'])
-            .pipe(concat('app.js')) // Concatenate to a file named 'app.js'
+const gulp = require("gulp");
+const del = require("del");
+const concat = require('gulp-concat');
+const minify = require('gulp-minify');
+const cleanCss = require('gulp-clean-css');
+const sitemapBuilder = require('gulp-sitemap');
+
+// Clean assets
+function clean() {
+    return del(["./assets/*"]);
+}
+
+// Concatenate and minify our javascript files
+function scripts() {
+    return (
+        gulp
+            .src(["./resources/js/jquery-3.4.1-slim.js", "./resources/js/bootstrap-4.4.1.bundle.js", "./resources/js/site.js"]) // Set files in order as required.
+            .pipe(concat('bundle.js'))
             .pipe(minify())
-            .pipe(gulp.dest('assets')); // Output the 'app.js' to our /assets directory!
-});
+            .pipe(gulp.dest("./assets/"))
+    );
+}
 
-// Concatenate and minify the CSS files.
-gulp.task('pack-css', function () {
-    return gulp.src(['assets/css/bootstrap.css', 'assets/css/font-awesome.css', 'assets/css/font-imports.css', 'assets/css/site.css'])
-            .pipe(concat('site.min.css')) // Concatenate to a file named 'site.min.css'
-            .pipe(cleanCss())
-            .pipe(gulp.dest('assets')); // Output the 'site.min.css' to our /assets directory!
-});
+// Concatenate and minify CSS task
+function css() {
+    return gulp
+        //.src("./resources/css/**/*")
+        .src(["./resources/css/bootstrap.css", "./resources/css/inter.css", "./resources/css/site.css"]) // Set files in order as required.
+        .pipe(concat('site.min.css'))
+        .pipe(cleanCss())
+        .pipe(gulp.dest("./assets/"))
+}
 
-// Copy the 'fonts' to the build directory.
-//gulp.task('fonts', function () {
-//    return gulp.src([
-//        'assets/fonts/*'])
-//            .pipe(gulp.dest('assets/build/fonts'));
-//});
+function fonts() {
+    return gulp
+        .src(["./resources/fonts/*"])
+        .pipe(gulp.dest('./assets/fonts/'))
 
-// Handles the 'gulp build' command.
-gulp.task('build', ['pack-js', 'pack-css', 'fonts']);
+}
 
-// Handles the default 'gulp' command.
-gulp.task('default', [], function () {
-    gulp.start('build');
-});
+function sitemap() {
+    return gulp
+        .src('./!(node_modules){,/**/}*.html', {read: false})
+        .pipe(sitemapBuilder({
+            siteUrl: 'https://bobbyallen.me'
+        }))
+        .pipe(gulp.dest('./'))
+}
+
+gulp.task('default', gulp.series(clean, css, scripts, fonts, sitemap));
+gulp.task('clean', gulp.series(clean));
+gulp.task('sitemap', gulp.series(sitemap));
+gulp.task('build', gulp.series(clean, css, scripts, fonts, sitemap));
