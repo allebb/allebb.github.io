@@ -1,6 +1,6 @@
 # Development notes
 
-Sitemap generation and asset compilation and minification is handled by Gulp, install Gulp and the dependencies like so:
+Sitemap generation, asset compilation and minification is handled by Gulp, install Gulp and the required dependencies like so:
 
 ```shell
 npm install

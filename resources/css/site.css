@@ -1,6 +1,5 @@
 body {
     font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
-    /**font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;**/
     background-color: #ffffff;
     color: #2E2C2F;
     margin-top: 50px;
@@ -8,9 +7,7 @@ body {
 }
 
 h1 {
-    font-family: "Inter bold", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 2.4rem;
-    font-weight: 700;
+    margin: 0 auto;
 }
 
 h2 {
@@ -22,7 +19,6 @@ h2 {
     font-family: "Inter bold", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
     margin-top: 20px;
     font-size: 2.2rem;
-    line-stacking: 1.3em;
 }
 
 .lead strong {
