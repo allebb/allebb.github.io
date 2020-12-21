@@ -3,7 +3,6 @@
   "version": "2.0.0",
   "description": "My personal portfolio site.",
   "main": "gulpfile.js",
-  "dependencies": {},
   "devDependencies": {
     "del": "^5.1.0",
     "gulp": "^4.0.2",
